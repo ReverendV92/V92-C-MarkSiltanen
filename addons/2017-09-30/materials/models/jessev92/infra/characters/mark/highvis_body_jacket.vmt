@@ -1,0 +1,45 @@
+
+VertexlitGeneric
+{
+
+	// Base Textures
+
+	$basetexture models/jessev92/infra/characters/mark/highvis_body_d
+	$bumpmap models/cstrike/t_leet_normal
+
+	// Self Illumination
+	
+	$selfillum 1
+	$selfillummask models/jessev92/infra/characters/mark/highvis_body_i
+	
+	// Translucency
+	
+	$nocull 1
+
+	// Ambient Occlusion
+
+	$halflambert 1
+	$ambientocclusion 1
+	$ambientocclcolor "{ 175 150 25 }"
+	$lightwarptexture dev/identitylightwarp
+
+	// Phong
+
+	// $basemapalphaphongmask 0
+	// $basemapluminancephongmask 0
+	$phong 1
+	// $phongexponent 5
+	$phongexponenttexture models/jessev92/characters/highvis/highvis_body_x
+	$phongboost 1
+	$phongfresnelranges "[ 0 0.5 1 ]"
+	// $phongalbedotint 1
+	$phongtint "{ 25 5 0 }"
+	$PhongWarpTexture models/jessev92/characters/highvis/highvis_body_pw
+
+	// Rim Lighting
+
+	$rimlight 1
+	$rimlightexponent 75
+	$rimlightboost 0.1
+
+}

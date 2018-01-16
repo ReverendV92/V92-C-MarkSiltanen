@@ -1,0 +1,21 @@
+
+VertexlitGeneric
+{
+
+	// Base Textures
+
+	$basetexture models/jessev92/infra/characters/mark/highvis_body_d
+	$bumpmap models/cstrike/t_leet_normal
+
+	// Translucency
+	
+	$nocull 1
+
+	// Ambient Occlusion
+
+	$halflambert 1
+	$ambientocclusion 1
+	$ambientocclcolor "{ 175 150 25 }"
+	$lightwarptexture dev/identitylightwarp
+
+}
