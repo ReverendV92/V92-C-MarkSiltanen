@@ -1,0 +1,45 @@
+
+VertexlitGeneric
+{
+
+	// Base Textures
+
+	$basetexture models/infra/props_clutter/hardhat_skin1
+	// $bumpmap models/jessev92/infra/clutter/hardhat_b
+	$bumpmap dev/bump_normal
+
+	// Lighting
+
+	$halflambert 1
+	$ambientocclusion 1
+	$ambientocclcolor "{ 235 235 235 }"
+	// $ambientocclusiontexture models/jessev92/infra/clutter/hardhat_ao
+	$lightwarptexture dev/identitylightwarp
+	// $lightwarptexture models/jessev92/infra/clutter/hardhat_w
+
+	// Phong
+
+	$phong 1
+	$phongexponent 5
+	// $phongexponenttexture models/jessev92/infra/clutter/hardhat_x
+	$phongboost 1
+	$phongfresnelranges "[ 0.1 0.1 0.1 ]"
+
+	// Rim Lighting
+
+	$rimlight 1
+	$rimlightexponent 75
+	$rimlightboost 0.1
+
+	// Detail
+
+	$detail detail/metal_detail_01
+	$detailscale 8
+	$detailblendmode 0
+	$detailblendfactor 0.15
+
+	// Colour Proxy
+
+	$blendtintbybasealpha 1
+
+}

@@ -1,0 +1,24 @@
+
+vertexlitgeneric
+{
+
+	$baseTexture models/jessev92/characters/hl2/male/facemaps/mike_facemap6
+	$bumpmap models/jessev92/characters/hl2/male/facemaps/mike_facemap_b
+	$lightwarptexture dev/identitylightwarp
+	
+	$ambientocclusion 1
+	$halflambert 1
+	$nocull 0
+	$surfaceprop flesh
+	
+	$phong 1
+	$phongexponent 25
+	$phongboost 1
+	$phongfresnelranges "[0 0.5 1]"
+	
+	// $detail				models/jessev92/detail/skin1
+	// $detailscale        8
+	// $detailblendfactor  0.5
+	// $detailblendmode	0
+
+}

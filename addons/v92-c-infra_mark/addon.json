@@ -1,0 +1,14 @@
+{
+	"title"		:	"Markku Siltanen",
+	"type"		:	"model",
+	"tags"		:	[ "roleplay", "realism" ],
+	"ignore"	:
+	[
+		"*.psd",
+		"*.vcproj",
+		"*.svn*",
+		"*.txt*",
+		"*.dua*",
+		"*.ztmp*"
+	]
+}

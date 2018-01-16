@@ -1,0 +1,40 @@
+
+VertexlitGeneric
+{
+
+	// Base Textures
+
+	$basetexture models/jessev92/characters/highvis/arms/highvis_c_arm_d
+	$bumpmap models/jessev92/characters/highvis/arms/highvis_c_arm_b
+
+	// Lighting
+
+	$halflambert 1
+	$ambientocclusion 1
+	$ambientocclcolor "{ 175 150 25 }"
+	$lightwarptexture dev/identitylightwarp
+
+	// Phong
+
+	$phong 1
+	// $phongexponent 5
+	$phongexponenttexture models/jessev92/characters/highvis/arms/highvis_c_arm_pw
+	$phongboost 1
+	$phongfresnelranges "[ 0 0.5 1 ]"
+	$phongalbedotint 1
+	$PhongWarpTexture models/jessev92/characters/highvis/arms/highvis_c_arm_pw
+
+	// Rim Lighting
+
+	$rimlight 1
+	$rimlightexponent 75
+	$rimlightboost 0.1
+
+	// Detail
+
+	$detail models/jessev92/characters/highvis/arms/highvis_c_arm_dt
+	$detailscale 1
+	$detailblendmode 0
+	$detailblendfactor 0.9
+
+}
