@@ -1,0 +1,20 @@
+
+Teeth
+{
+
+	$basetexture models/Humans/Male/mouth
+	$bumpmap dev/bump_normal
+	
+	$lightwarptexture dev/identitylightwarp
+	
+	$clientshader MouthShader
+
+	$halflambert 1
+	$ambientocclusion 1
+	$ambientocclcolor "{ 200 200 50 }"
+
+	$phong 1
+	$phongboost 2
+	$phongexponent 50
+	
+}
