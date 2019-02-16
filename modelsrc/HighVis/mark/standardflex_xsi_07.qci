@@ -58,8 +58,8 @@ flexcontroller "phoneme" "blink" "range" 0 1
           flexpair "AU26" 1.0 frame 26
           flexpair "AU27" 1.0 frame 27
      }
-     eyeball righteye ValveBiped.Bip01_Head1 -1.351 -3.220 67.193 eyeball_r 1.000  4.000 grn_pupil_r 0.630
-     eyeball lefteye ValveBiped.Bip01_Head1 1.111 -3.220 67.139 eyeball_l 1.000  -4.000 grn_pupil_l 0.630
+     eyeball righteye ValveBiped.Bip01_Head1 -1.351 -3.220 67.193 eyeball_r_blue 1.000  4.000 grn_pupil_r 0.630
+     eyeball lefteye ValveBiped.Bip01_Head1 1.111 -3.220 67.139 eyeball_l_blue 1.000  -4.000 grn_pupil_l 0.630
       //eyelid  upper_right "mdldecompiler_expressions.vta" lowerer 1 -0.162700 neutral 0 0.000000 raiser 1070655655 0.000000 split 0.1 eyeball righteye
       //eyelid  lower_right "mdldecompiler_expressions.vta" lowerer 2 -0.262300 neutral 0 -2.000000 raiser -1080580218 0.000000  split 0.1 eyeball righteye
       //eyelid  upper_left "mdldecompiler_expressions.vta" lowerer 3 -0.162700 neutral 0 0.000000 raiser 1070655655 0.000000 split -0.1 eyeball lefteye
@@ -207,4 +207,3 @@ flexcontroller "phoneme" "blink" "range" 0 1
     %AU16 = ( lower_lip * (( lower_lip * ( 0.250 * ( %right_lip_suppressor +  %left_lip_suppressor))) * ( 1.000 - ( 0.500 * ( %AU27R +  %AU27L)))))
     localvar mouth
     %mouth = (( %AU27R *  0.500) + (( %AU27L *  0.500) + (( %AU22R *  0.350) + (( %AU22L *  0.350) + (( %AU18R *  0.250) + (( %AU18L *  0.250) + (( %AU25R *  0.350) + (( %AU25L *  0.350) + (( %AU32 *  0.500) + ( %AU12AU25 + ((( %AU27R +  %AU27L) * ( 0.500 *  0.700)) + ( %AU16 *  0.400))))))))))))
-}

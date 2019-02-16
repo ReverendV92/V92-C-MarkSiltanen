@@ -29,8 +29,8 @@ $lod 9
 
 $lod 18
 {
-	removemesh "models/jessev92/characters/highvis/mark/mouth"
-	removemesh "models/jessev92/characters/highvis/mark/sunglasses_glass"
+	removemesh "models/jessev92/characters/hl2/male/facemaps/mouth"
+	removemesh "models/jessev92/characters/hl2/sunglasses_lens"
 	
 	nofacial
 	bonetreecollapse "ValveBiped.Bip01_L_Hand"
@@ -53,10 +53,11 @@ $lod 18
 $lod 32
 {
 
-	removemesh "models/jessev92/characters/highvis/mark/mouth"
-	removemesh "models/jessev92/characters/highvis/mark/eyeball_l"
-	removemesh "models/jessev92/characters/highvis/mark/eyeball_r"
-	removemesh "models/jessev92/characters/highvis/mark/sunglasses_glass"
+	removemesh "models/jessev92/characters/hl2/male/facemaps/mouth"
+	removemesh "models/jessev92/characters/eyes/eyeball_l_blue"
+	removemesh "models/jessev92/characters/eyes/eyeball_r_blue"
+	removemesh "models/jessev92/characters/hl2/sunglasses_lens"
+	removemesh "models/jessev92/characters/hl2/sunglasses_frame"
 
 	nofacial
 	bonetreecollapse "ValveBiped.Bip01_L_Forearm"
